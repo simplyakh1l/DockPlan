@@ -9,4 +9,4 @@ Acceptance: no client-supplied identity, no cross-account reads/writes, no secre
 
 ## Progress
 
-Implementation, local verification, GitHub publication, Vercel public demo deployment and profile order are complete. Live account activation is pending owner OAuth policy/credential creation and an Atlas connection string. The app explicitly disables hosted sign-in until both are configured. See RELEASE_STATUS.md and DEPLOYMENT.md.
+Implementation, local verification, GitHub publication, Vercel public demo deployment and profile order are complete. The owner created the Google OAuth client and its credentials are configured on Vercel. Live account activation still needs an Atlas connection string, a redeployment, and a real Google sign-in verification. The app explicitly disables hosted sign-in until durable storage is configured. See RELEASE_STATUS.md and DEPLOYMENT.md.
