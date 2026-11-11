@@ -769,7 +769,7 @@ export default function Planner({ health }) {
           <Icon name="external" size={12} />
         </Link>
       </p>
-      {health?.storage === 'memory' && (
+      {auth.user && health?.storage === 'memory' && (
         <p className="memory-note">
           Plans are saved for this server session. Enable MongoDB for durable
           storage.

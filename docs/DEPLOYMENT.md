@@ -2,6 +2,10 @@
 
 The packing demo works without accounts. Saving plans and vehicles requires Google sign-in. Production Google sign-in requires MongoDB, so private data and OAuth sessions survive Vercel function restarts.
 
+Production URL: https://dockplan-jet.vercel.app
+
+Google redirect URI: https://dockplan-jet.vercel.app/api/auth/google/callback
+
 ## 1. Deploy once to choose the app URL
 
 Import https://github.com/simplyakh1l/DockPlan into Vercel using the repository root. Keep the included vercel.json build/install/output settings. Choose the Hobby plan for a personal portfolio. No paid service is required.

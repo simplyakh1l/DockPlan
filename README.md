@@ -2,6 +2,8 @@
 
 **A little planning. A much better delivery.**
 
+[Open DockPlan](https://dockplan-jet.vercel.app) · [Google account setup](docs/DEPLOYMENT.md)
+
 DockPlan plans an upright rectangular cargo load inside a delivery van, then checks that the boxes can be unloaded in delivery order. It is a working MERN portfolio project with a custom JavaScript packing heuristic, an interactive 3D view, and a server-validated unloading simulator.
 
 Packing a van is not just a volume problem: putting the first delivery behind the last one wastes time. DockPlan combines geometric feasibility with a deliberately explicit straight-extraction model. It reports every package that could not be placed instead of silently dropping it.
