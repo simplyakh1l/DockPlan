@@ -1,0 +1,22 @@
+{
+  "name": "dockplan-server",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csv-parse": "^7.0.3",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.4",
+    "google-auth-library": "^11.3.4",
+    "helmet": "^8.3.0",
+    "mongoose": "^8.9.5",
+    "multer": "^2.0.2"
+  }
+}

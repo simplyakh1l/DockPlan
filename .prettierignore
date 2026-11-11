@@ -1,0 +1,6 @@
+node_modules
+dist
+package-lock.json
+client/package-lock.json
+server/package-lock.json
+docs/screenshots
