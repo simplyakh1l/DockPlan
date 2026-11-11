@@ -7,3 +7,7 @@ coverage
 !.env.example
 .vercel
 *.log
+# Downloaded OAuth credentials must never be published.
+client_secret*.json
+google-oauth*.json
+.credentials/
